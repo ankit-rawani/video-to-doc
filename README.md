@@ -40,21 +40,21 @@ See [`examples/falcon_review/falcon_review.md`](examples/falcon_review/falcon_re
 Inside Claude Code:
 
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add ankit-rawani/video-to-doc
 /plugin install video-to-doc@vdo2doc
 ```
 
 Or from a terminal:
 
 ```
-claude plugin marketplace add <owner>/<repo>
+claude plugin marketplace add ankit-rawani/video-to-doc
 claude plugin install video-to-doc@vdo2doc
 ```
 
 Restart Claude Code so the skill is picked up. Check it with `/plugin` → *Installed*.
 
 > For a private repo, your git credentials must have access, e.g. via `gh auth login`.
-> You can also use the full URL: `/plugin marketplace add https://github.com/<owner>/<repo>.git`
+> You can also use the full URL: `/plugin marketplace add https://github.com/ankit-rawani/video-to-doc.git`
 
 ### Install for a whole team (optional)
 
@@ -65,7 +65,7 @@ the project's `.claude/settings.json`:
 {
   "extraKnownMarketplaces": {
     "vdo2doc": {
-      "source": { "source": "github", "repo": "<owner>/<repo>" }
+      "source": { "source": "github", "repo": "ankit-rawani/video-to-doc" }
     }
   },
   "enabledPlugins": {
