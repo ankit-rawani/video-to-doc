@@ -1,0 +1,5 @@
+opencv-python
+numpy
+faster-whisper
+python-docx
+pillow

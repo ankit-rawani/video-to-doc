@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+
+# skill workspaces and test inputs
+*_vdo2doc/
+examples/tts/
+*.mp4
+*.mkv
+*.mov
+*.webm

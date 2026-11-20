@@ -1,0 +1,9 @@
+{
+  "name": "video-to-doc",
+  "version": "1.0.0",
+  "description": "Turn a meeting recording, lecture, demo or tutorial video into a structured Markdown/DOCX document with screenshots placed where they clarify the text.",
+  "author": {
+    "name": "Ankit Rawani"
+  },
+  "keywords": ["video", "meeting-notes", "transcription", "documentation", "screenshots", "docx"]
+}

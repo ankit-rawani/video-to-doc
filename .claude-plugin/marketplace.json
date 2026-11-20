@@ -1,0 +1,20 @@
+{
+  "name": "vdo2doc",
+  "owner": {
+    "name": "Ankit Rawani"
+  },
+  "metadata": {
+    "description": "Turn long-form videos into structured documents with screenshots.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "video-to-doc",
+      "source": "./plugins/video-to-doc",
+      "description": "Turn a meeting recording, lecture, demo or tutorial video into a structured Markdown/DOCX document with screenshots placed where they clarify the text.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["video", "meeting-notes", "transcription", "documentation", "screenshots", "docx"]
+    }
+  ]
+}
